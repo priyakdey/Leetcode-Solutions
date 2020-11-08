@@ -6,4 +6,4 @@ The idea abouit this project is
 - Learn Datastructures/Algorithms
 - Learn Diff programming languages
 
-		*Note*: Code may run/not run as uploaded depending on the local env setup.
+*Note*: Code may run/not run as uploaded depending on the local env setup.
