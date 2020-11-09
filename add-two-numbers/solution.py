@@ -19,6 +19,14 @@ class Solution:
         while True:
             val = 0
             if l1 is None and l2 is None:
+                if carry == 1:
+                    node = ListNode(1)
+                    temp = l3
+                    while True:
+                        if temp.next is None:
+                            temp.next = node
+                            break
+                        temp = temp.next
                 break
             if l1 is not None:
                 val += l1.val
